@@ -7,4 +7,4 @@
 
 ;; hiwin-modeを有効化
 (hiwin-activate)
-(set-face-background 'hiwin-face "#555555") ;; 非アクティブウィンドウの背景色を設定
+(set-face-background 'hiwin-face "#111111") ;; 非アクティブウィンドウの背景色を設定
