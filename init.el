@@ -5,12 +5,12 @@
 ;; ----------------------------------------------------
 
 ;; site-lisp内のファイルを読み込む
-(let ( (default-directory
-         (file-name-as-directory (concat user-emacs-directory "site-lisp")))
-       )
-  (add-to-list 'load-path default-directory)
-  (normal-top-level-add-subdirs-to-load-path) 
-)
+;; (let ( (default-directory
+;;          (file-name-as-directory (concat user-emacs-directory "site-lisp")))
+;;        )
+;;   (add-to-list 'load-path default-directory)
+;;   (normal-top-level-add-subdirs-to-load-path) 
+;; )
 
 
 ;; ----------------------------------------------------
