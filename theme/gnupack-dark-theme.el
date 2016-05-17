@@ -41,13 +41,15 @@
       (gray-30       "#4D4D4D") (gray-35       "#595959") (gray-40       "#666666") (gray-45       "#737373") (gray-50       "#808080")
       (gray-55       "#8C8C8C") (gray-60       "#999999") (gray-65       "#A6A6A6") (gray-70       "#B3B3B3") (gray-75       "#BFBFBF")
       (gray-80       "#CCCCCC") (gray-85       "#D9D9D9") (gray-90       "#E6E6E6") (gray-95       "#F2F2F2") (white         "#FFFFFF")
-
+      ;; bkackを追加
+      (black         "#000000")
       )
 
   (custom-theme-set-faces
    'gnupack-dark
 
-   `(default     ((t (:foreground ,gray-95 :background ,gray-05)))) 
+   `(default     ((t (:foreground ,white :background ,black)))) 
+   ;; `(default     ((t (:foreground ,gray-95 :background ,gray-05)))) 
    `(bold        ((t (:bold t   :italic nil :underline nil ))))
    `(bold-italic ((t (:bold t   :italic t   :underline nil ))))
    `(italic      ((t (:bold nil :italic t   :underline nil ))))
