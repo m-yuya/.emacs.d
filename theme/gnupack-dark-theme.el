@@ -71,9 +71,9 @@
    `(cursor-ime-on  ((t (:foreground ,gray-90 :background ,green-dark :bold nil))))
 
    ;; 見づらいので変更 
-   `(mode-line           ((t (:foreground ,gray-15 :background ,gray-75          ))))
-   `(mode-line-inactive  ((t (:foreground ,gray-25 :background ,gray-75          ))))
-   `(mode-line-buffer-id ((t (                     :background ,gray-75          ))))
+   ;; `(mode-line           ((t (:foreground ,gray-15 :background ,gray-75          ))))
+   ;; `(mode-line-inactive  ((t (:foreground ,gray-25 :background ,gray-75          ))))
+   ;; `(mode-line-buffer-id ((t (                     :background ,gray-75          ))))
    ;; `(mode-line           ((t (:foreground ,gray-85 :background ,gray-45          ))))
    ;; `(mode-line-inactive  ((t (:foreground ,gray-65 :background ,gray-45          ))))
    ;; `(mode-line-buffer-id ((t (                     :background ,gray-45          ))))
