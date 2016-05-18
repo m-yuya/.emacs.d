@@ -26,7 +26,7 @@
 
 ;; ;; 行番号の書式
 (defvar linum-format nil)
- (setq linum-format "%5d")
+ (setq linum-format "%4d ")
 
 ;; 文字サイズ
-(set-face-attribute 'linum nil :height 0.75)
+(set-face-attribute 'linum nil :height 1.0)
