@@ -19,9 +19,9 @@
 (bind-key* (kbd "M-p") (kbd "C-u 5 C-p")); M-pで 5行移動
 
 ;; フォントサイズ調整
-(bind-key (kbd "C-<wheel-up>")   '(lambda() (interactive) (text-scale-increase 1)))
-(bind-key (kbd "C-+")            '(lambda() (interactive) (text-scale-increase 1)))
-(bind-key (kbd "C-<wheel-down>") '(lambda() (interactive) (text-scale-decrease 1)))
+;; (bind-key (kbd "C-<wheel-up>")   '(lambda() (interactive) (text-scale-increase 1)))
+(bind-key (kbd "C-;")            '(lambda() (interactive) (text-scale-increase 1)))
+;; (bind-key (kbd "C-<wheel-down>") '(lambda() (interactive) (text-scale-decrease 1)))
 (bind-key (kbd "C--")            '(lambda() (interactive) (text-scale-decrease 1)))
 
 ;; フォントサイズ リセット
